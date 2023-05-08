@@ -41,24 +41,22 @@ bool Scene::init()
                                       3, 2, 7,
                                       4, 0, 7};
 
-        //set up VBO
+
         glGenBuffers(1, &vboID);
         glBindBuffer(GL_ARRAY_BUFFER, vboID);
         glBufferData(GL_ARRAY_BUFFER, sizeof(vertices), &vertices, GL_STATIC_DRAW);
 
         glGenVertexArrays(1, &vaoID);
         glBindVertexArray(vaoID);
-        //Vertex Attribute definieren, aktivieren
+
         glVertexAttribPointer(0,3,GL_FLOAT, false, 6*sizeof(float),(void*)0);
         glVertexAttribPointer(1, 3, GL_FLOAT, false, 6*sizeof(float), (void*)(3*sizeof(float)));
-        //pointer 2*sizeof(float): after x,y then come r,g,b -> each x or y contains of (sizeofByte) ->r,g,b come after 2*(sizeofFloat) Byte
+
         glEnableVertexAttribArray(0);
         glEnableVertexAttribArray(1);
-        //set up IBO
+
         glGenBuffers(1, &iboID);
-        //Binden des IBO
         glBindBuffer(GL_ELEMENT_ARRAY_BUFFER, iboID);
-        //Füllen des IBO mit Index Daten
         glBufferData(GL_ELEMENT_ARRAY_BUFFER, sizeof(indices), indices, GL_STATIC_DRAW);
 
         glBindVertexArray(0); // unbind VAO
@@ -66,12 +64,12 @@ bool Scene::init()
         glBindBuffer(GL_ELEMENT_ARRAY_BUFFER, 0); // unbind IBO
 
 
-        //My code end here
+       //Praktikum1 Aufgabe 4
+        glEnable(GL_CULL_FACE);
+        glFrontFace(GL_CCW);
+        glCullFace(GL_BACK);
+
         std::cout << "Scene initialization done\n";
-       //Aufgabe 4
-        //glEnable(GL_CULL_FACE);
-        //glFrontFace(GL_CCW);
-        //glCullFace(GL_BACK);
         return true;
     }
     catch (std::exception& ex)
@@ -82,23 +80,19 @@ bool Scene::init()
 
 void Scene::render(float dt)
 {
-    // Define the rotation angles for the cube
-    float rotationAngleX = 0.0f;
-    float rotationAngleY = 0.0f;
-    float rotationAngleZ = 0.2f;
+    //static float time = 0.0f;
+    Transform* cubeTransform = new Transform();
 
-    // Create a transform object for the cube and apply rotations
-        Transform* cubeTransform = new Transform;
-        cubeTransform->rotate(glm::vec3(rotationAngleX, rotationAngleY, rotationAngleZ));
+    float rotationAngleX = glm::radians(45.0f);
+    float rotationAngleY = glm::radians(45.0f);
+    float rotationAngleZ = glm::radians(45.0f);
 
-    // Get the transformation matrix from the transform object
-        glm::mat4 transformMatrix = cubeTransform->getMatrix();
+    cubeTransform->rotate(glm::vec3(rotationAngleX, rotationAngleY, rotationAngleZ));
 
-    // Set the uniform variable in the shader for the transformation matrix
-        m_shader->setUniform("transformMatrix", transformMatrix, false);
+    m_shader->setUniform("transformMatrix", cubeTransform->getMatrix(), false);
 
     glBindVertexArray(vaoID);
-    glDrawElements(GL_TRIANGLES, 36,GL_UNSIGNED_INT, 0);
+    glDrawElements(GL_TRIANGLES, 36, GL_UNSIGNED_INT, nullptr);
 
     glBindVertexArray(0); // unbind VAO
 }

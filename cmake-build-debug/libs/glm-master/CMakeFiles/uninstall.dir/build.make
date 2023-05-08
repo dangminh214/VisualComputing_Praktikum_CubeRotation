@@ -43,10 +43,10 @@ cmake_force:
 SHELL = cmd.exe
 
 # The CMake executable.
-CMAKE_COMMAND = "C:\Program Files\JetBrains\CLion 2023.1.2\bin\cmake\win\x64\bin\cmake.exe"
+CMAKE_COMMAND = "C:\Users\dangm\AppData\Local\JetBrains\CLion 2023.1.2\bin\cmake\win\x64\bin\cmake.exe"
 
 # The command to remove a file.
-RM = "C:\Program Files\JetBrains\CLion 2023.1.2\bin\cmake\win\x64\bin\cmake.exe" -E rm -f
+RM = "C:\Users\dangm\AppData\Local\JetBrains\CLion 2023.1.2\bin\cmake\win\x64\bin\cmake.exe" -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
@@ -66,7 +66,7 @@ include libs/glm-master/CMakeFiles/uninstall.dir/compiler_depend.make
 include libs/glm-master/CMakeFiles/uninstall.dir/progress.make
 
 libs/glm-master/CMakeFiles/uninstall:
-	cd /d C:\Users\dangm\Documents\VisualComputing_Praktikum\cmake-build-debug\libs\glm-master && "C:\Program Files\JetBrains\CLion 2023.1.2\bin\cmake\win\x64\bin\cmake.exe" -P C:/Users/dangm/Documents/VisualComputing_Praktikum/cmake-build-debug/libs/glm-master/cmake_uninstall.cmake
+	cd /d C:\Users\dangm\Documents\VisualComputing_Praktikum\cmake-build-debug\libs\glm-master && "C:\Users\dangm\AppData\Local\JetBrains\CLion 2023.1.2\bin\cmake\win\x64\bin\cmake.exe" -P C:/Users/dangm/Documents/VisualComputing_Praktikum/cmake-build-debug/libs/glm-master/cmake_uninstall.cmake
 
 uninstall: libs/glm-master/CMakeFiles/uninstall
 uninstall: libs/glm-master/CMakeFiles/uninstall.dir/build.make

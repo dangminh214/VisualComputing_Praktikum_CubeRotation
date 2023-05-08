@@ -43,10 +43,10 @@ cmake_force:
 SHELL = cmd.exe
 
 # The CMake executable.
-CMAKE_COMMAND = "C:\Program Files\JetBrains\CLion 2023.1.2\bin\cmake\win\x64\bin\cmake.exe"
+CMAKE_COMMAND = "C:\Users\dangm\AppData\Local\JetBrains\CLion 2023.1.2\bin\cmake\win\x64\bin\cmake.exe"
 
 # The command to remove a file.
-RM = "C:\Program Files\JetBrains\CLion 2023.1.2\bin\cmake\win\x64\bin\cmake.exe" -E rm -f
+RM = "C:\Users\dangm\AppData\Local\JetBrains\CLion 2023.1.2\bin\cmake\win\x64\bin\cmake.exe" -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
@@ -72,29 +72,29 @@ libs/stb/CMakeFiles/stb.dir/stb_image.c.obj: libs/stb/CMakeFiles/stb.dir/flags.m
 libs/stb/CMakeFiles/stb.dir/stb_image.c.obj: C:/Users/dangm/Documents/VisualComputing_Praktikum/libs/stb/stb_image.c
 libs/stb/CMakeFiles/stb.dir/stb_image.c.obj: libs/stb/CMakeFiles/stb.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\dangm\Documents\VisualComputing_Praktikum\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object libs/stb/CMakeFiles/stb.dir/stb_image.c.obj"
-	cd /d C:\Users\dangm\Documents\VisualComputing_Praktikum\cmake-build-debug\libs\stb && C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT libs/stb/CMakeFiles/stb.dir/stb_image.c.obj -MF CMakeFiles\stb.dir\stb_image.c.obj.d -o CMakeFiles\stb.dir\stb_image.c.obj -c C:\Users\dangm\Documents\VisualComputing_Praktikum\libs\stb\stb_image.c
+	cd /d C:\Users\dangm\Documents\VisualComputing_Praktikum\cmake-build-debug\libs\stb && C:\Users\dangm\AppData\Local\JETBRA~1\CLION2~1.2\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT libs/stb/CMakeFiles/stb.dir/stb_image.c.obj -MF CMakeFiles\stb.dir\stb_image.c.obj.d -o CMakeFiles\stb.dir\stb_image.c.obj -c C:\Users\dangm\Documents\VisualComputing_Praktikum\libs\stb\stb_image.c
 
 libs/stb/CMakeFiles/stb.dir/stb_image.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/stb.dir/stb_image.c.i"
-	cd /d C:\Users\dangm\Documents\VisualComputing_Praktikum\cmake-build-debug\libs\stb && C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\dangm\Documents\VisualComputing_Praktikum\libs\stb\stb_image.c > CMakeFiles\stb.dir\stb_image.c.i
+	cd /d C:\Users\dangm\Documents\VisualComputing_Praktikum\cmake-build-debug\libs\stb && C:\Users\dangm\AppData\Local\JETBRA~1\CLION2~1.2\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\dangm\Documents\VisualComputing_Praktikum\libs\stb\stb_image.c > CMakeFiles\stb.dir\stb_image.c.i
 
 libs/stb/CMakeFiles/stb.dir/stb_image.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/stb.dir/stb_image.c.s"
-	cd /d C:\Users\dangm\Documents\VisualComputing_Praktikum\cmake-build-debug\libs\stb && C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\dangm\Documents\VisualComputing_Praktikum\libs\stb\stb_image.c -o CMakeFiles\stb.dir\stb_image.c.s
+	cd /d C:\Users\dangm\Documents\VisualComputing_Praktikum\cmake-build-debug\libs\stb && C:\Users\dangm\AppData\Local\JETBRA~1\CLION2~1.2\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\dangm\Documents\VisualComputing_Praktikum\libs\stb\stb_image.c -o CMakeFiles\stb.dir\stb_image.c.s
 
 libs/stb/CMakeFiles/stb.dir/stb_image_write.c.obj: libs/stb/CMakeFiles/stb.dir/flags.make
 libs/stb/CMakeFiles/stb.dir/stb_image_write.c.obj: C:/Users/dangm/Documents/VisualComputing_Praktikum/libs/stb/stb_image_write.c
 libs/stb/CMakeFiles/stb.dir/stb_image_write.c.obj: libs/stb/CMakeFiles/stb.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\dangm\Documents\VisualComputing_Praktikum\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object libs/stb/CMakeFiles/stb.dir/stb_image_write.c.obj"
-	cd /d C:\Users\dangm\Documents\VisualComputing_Praktikum\cmake-build-debug\libs\stb && C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT libs/stb/CMakeFiles/stb.dir/stb_image_write.c.obj -MF CMakeFiles\stb.dir\stb_image_write.c.obj.d -o CMakeFiles\stb.dir\stb_image_write.c.obj -c C:\Users\dangm\Documents\VisualComputing_Praktikum\libs\stb\stb_image_write.c
+	cd /d C:\Users\dangm\Documents\VisualComputing_Praktikum\cmake-build-debug\libs\stb && C:\Users\dangm\AppData\Local\JETBRA~1\CLION2~1.2\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT libs/stb/CMakeFiles/stb.dir/stb_image_write.c.obj -MF CMakeFiles\stb.dir\stb_image_write.c.obj.d -o CMakeFiles\stb.dir\stb_image_write.c.obj -c C:\Users\dangm\Documents\VisualComputing_Praktikum\libs\stb\stb_image_write.c
 
 libs/stb/CMakeFiles/stb.dir/stb_image_write.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/stb.dir/stb_image_write.c.i"
-	cd /d C:\Users\dangm\Documents\VisualComputing_Praktikum\cmake-build-debug\libs\stb && C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\dangm\Documents\VisualComputing_Praktikum\libs\stb\stb_image_write.c > CMakeFiles\stb.dir\stb_image_write.c.i
+	cd /d C:\Users\dangm\Documents\VisualComputing_Praktikum\cmake-build-debug\libs\stb && C:\Users\dangm\AppData\Local\JETBRA~1\CLION2~1.2\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\dangm\Documents\VisualComputing_Praktikum\libs\stb\stb_image_write.c > CMakeFiles\stb.dir\stb_image_write.c.i
 
 libs/stb/CMakeFiles/stb.dir/stb_image_write.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/stb.dir/stb_image_write.c.s"
-	cd /d C:\Users\dangm\Documents\VisualComputing_Praktikum\cmake-build-debug\libs\stb && C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\dangm\Documents\VisualComputing_Praktikum\libs\stb\stb_image_write.c -o CMakeFiles\stb.dir\stb_image_write.c.s
+	cd /d C:\Users\dangm\Documents\VisualComputing_Praktikum\cmake-build-debug\libs\stb && C:\Users\dangm\AppData\Local\JETBRA~1\CLION2~1.2\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\dangm\Documents\VisualComputing_Praktikum\libs\stb\stb_image_write.c -o CMakeFiles\stb.dir\stb_image_write.c.s
 
 # Object files for target stb
 stb_OBJECTS = \
