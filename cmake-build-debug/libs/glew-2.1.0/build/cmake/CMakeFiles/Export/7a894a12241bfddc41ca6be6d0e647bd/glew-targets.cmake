@@ -61,7 +61,7 @@ add_library(GLEW::glew_s STATIC IMPORTED)
 set_target_properties(GLEW::glew_s PROPERTIES
   INTERFACE_COMPILE_DEFINITIONS "GLEW_STATIC"
   INTERFACE_INCLUDE_DIRECTORIES "${_IMPORT_PREFIX}/include"
-  INTERFACE_LINK_LIBRARIES "/usr/lib/x86_64-linux-gnu/libGL.so;/usr/lib/x86_64-linux-gnu/libGLU.so"
+  INTERFACE_LINK_LIBRARIES "opengl32;glu32"
 )
 
 if(CMAKE_VERSION VERSION_LESS 2.8.12)

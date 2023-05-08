@@ -19,88 +19,28 @@ bool Scene::init()
         m_assets.addShaderProgram("shader", AssetManager::createShaderProgram("assets/shaders/vertex.glsl", "assets/shaders/fragment.glsl"));
         m_shader = m_assets.getShaderProgram("shader");
         m_shader->use();
-        float vertices[] = {
-                //M
-                -0.9, -0.1, 1.0, 0.5, 0.6,
-                -0.8, -0.1, 1.0, 0.5, 0.6,
-                -0.6, -0.1, 1.0, 0.5, 0.6,
-                -0.5, -0.1, 1.0, 0.5, 0.6,
-                -0.8, 0.1, 1.0, 0.5, 0.6,
-                -0.7, 0.0, 1.0, 0.5, 0.6,
-                -0.6, 0.1, 1.0, 0.5, 0.6,
+        static const float vertices[] =  {0.5, -0.5, -0.5, 1, 0, 0,
+                                          0.5, -0.5, 0.5, 0, 1, 0,
+                                          -0.5, -0.5, 0.5, 0, 0, 1,
+                                          -0.5, -0.5, -0.5, 1, 1, 0,
+                                          0.5, 0.5, -0.5, 1, 0, 1,
+                                          0.5, 0.5, 0.5, 0, 1, 1,
+                                          -0.5, 0.5, 0.5, 1, 1, 1,
+                                          -0.5, 0.5, -0.5, 0.5, 1, 0.5};
 
-                -0.9, 0.2, 1.0, 0.5, 0.6,
-                -0.8, 0.2, 1.0, 0.5, 0.6,
-                -0.7, 0.1, 1.0, 0.5, 0.6,
-                -0.6, 0.2, 1.0, 0.5, 0.6,
-                -0.5, 0.2, 1.0, 0.5, 0.6,
+        static const int indices[] = {1, 2, 3,
+                                      7, 6, 5,
+                                      4, 5, 1,
+                                      5, 6, 2,
+                                      2, 6, 7,
+                                      0, 3, 7,
+                                      0, 1, 3,
+                                      4, 7, 5,
+                                      0, 4, 1,
+                                      1, 5, 2,
+                                      3, 2, 7,
+                                      4, 0, 7};
 
-                //I
-                -0.4, -0.1, 1.0, 0.5, 0.6,
-                -0.3, -0.1, 1.0, 0.5, 0.6,
-                -0.4, 0.2,1.0, 0.5, 0.6,
-                -0.3, 0.2, 1.0, 0.5, 0.6,
-
-                //N
-                -0.2, -0.1, 1.0, 0.5, 0.6,
-                -0.1, -0.1,1.0, 0.5, 0.6,
-                0.1, -0.1,1.0, 0.5, 0.6,
-                0.2, -0.1, 1.0, 0.5, 0.6,
-                -0.2, 0.2, 1.0, 0.5, 0.6,
-                -0.1, 0.2, 1.0, 0.5, 0.6,
-                0.1, 0.2, 1.0, 0.5, 0.6,
-                0.2, 0.2, 1.0, 0.5, 0.6,
-                -0.1, 0.1, 1.0, 0.5, 0.6,
-                0.1, 0.0, 1.0, 0.5, 0.6,
-
-                //H
-                0.3, -0.1, 1.0, 0.5, 0.6,
-                0.4, -0.1, 1.0, 0.5, 0.6,
-                0.3, 0.2, 1.0, 0.5, 0.6,
-                0.4, 0.2, 1.0, 0.5, 0.6,
-                0.4, 0.1, 1.0, 0.5, 0.6,
-                0.4, 0.0, 1.0, 0.5, 0.6,
-                0.5, 0.0, 1.0, 0.5, 0.6,
-                0.5, 0.1, 1.0, 0.5, 0.6,
-                0.5, 0.2, 1.0, 0.5, 0.6,
-                0.6, 0.2, 1.0, 0.5, 0.6,
-                0.6, -0.1, 1.0, 0.5, 0.6,
-                0.5, -0.1, 1.0, 0.5, 0.6,
-
-
-        };
-        unsigned int indices[] = {
-                //M
-                0,1,7,
-                7,1,4,
-                7,9,8,
-                7,5,9,
-                9,5,10,
-                10,5,6,
-                2,3,10,
-                10,3,11,
-
-                //I
-                12, 13, 14,
-                14, 13, 15,
-
-                //N
-                16, 17,20,
-                20,17,21,
-                21,24,18,
-                21,18,25,
-                18,19,22,
-                22,19,23,
-
-                //H
-                26, 27,28,
-                28, 27, 29,
-                30,31,32,
-                30,32,33,
-                37,36,34,
-                34,36,35
-
-        };
         //set up VBO
         glGenBuffers(1, &vboID);
         glBindBuffer(GL_ARRAY_BUFFER, vboID);
@@ -109,8 +49,8 @@ bool Scene::init()
         glGenVertexArrays(1, &vaoID);
         glBindVertexArray(vaoID);
         //Vertex Attribute definieren, aktivieren
-        glVertexAttribPointer(0,2,GL_FLOAT, false, 5*sizeof(float),(void*)0);
-        glVertexAttribPointer(1, 3, GL_FLOAT, false, 5*sizeof(float), (void*)(2*sizeof(float)));
+        glVertexAttribPointer(0,3,GL_FLOAT, false, 6*sizeof(float),(void*)0);
+        glVertexAttribPointer(1, 3, GL_FLOAT, false, 6*sizeof(float), (void*)(3*sizeof(float)));
         //pointer 2*sizeof(float): after x,y then come r,g,b -> each x or y contains of (sizeofByte) ->r,g,b come after 2*(sizeofFloat) Byte
         glEnableVertexAttribArray(0);
         glEnableVertexAttribArray(1);
@@ -142,8 +82,23 @@ bool Scene::init()
 
 void Scene::render(float dt)
 {
+    // Define the rotation angles for the cube
+    float rotationAngleX = 0.0f;
+    float rotationAngleY = 0.0f;
+    float rotationAngleZ = 0.2f;
+
+    // Create a transform object for the cube and apply rotations
+        Transform* cubeTransform = new Transform;
+        cubeTransform->rotate(glm::vec3(rotationAngleX, rotationAngleY, rotationAngleZ));
+
+    // Get the transformation matrix from the transform object
+        glm::mat4 transformMatrix = cubeTransform->getMatrix();
+
+    // Set the uniform variable in the shader for the transformation matrix
+        m_shader->setUniform("transformMatrix", transformMatrix, false);
+
     glBindVertexArray(vaoID);
-    glDrawElements(GL_TRIANGLES, 66,GL_UNSIGNED_INT, 0);
+    glDrawElements(GL_TRIANGLES, 36,GL_UNSIGNED_INT, 0);
 
     glBindVertexArray(0); // unbind VAO
 }
