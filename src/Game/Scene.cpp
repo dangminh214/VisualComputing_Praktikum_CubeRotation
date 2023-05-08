@@ -80,12 +80,15 @@ bool Scene::init()
 
 void Scene::render(float dt)
 {
-    //static float time = 0.0f;
-    Transform* cubeTransform = new Transform();
+    glClearColor(0.0, 0.0, 0.0, 0.0); // Set clear color to dark blue-gray
+    glClear(GL_COLOR_BUFFER_BIT); // Clear the color buffer
 
-    float rotationAngleX = glm::radians(45.0f);
-    float rotationAngleY = glm::radians(45.0f);
-    float rotationAngleZ = glm::radians(45.0f);
+    static float time = 0.0f;
+    Transform* cubeTransform = new Transform();
+    float rotationSpeed = 45.0f;
+    float rotationAngleX = glm::radians(rotationSpeed * time);
+    float rotationAngleY = glm::radians(rotationSpeed * time);
+    float rotationAngleZ = glm::radians(rotationSpeed * time);
 
     cubeTransform->rotate(glm::vec3(rotationAngleX, rotationAngleY, rotationAngleZ));
 
@@ -95,6 +98,8 @@ void Scene::render(float dt)
     glDrawElements(GL_TRIANGLES, 36, GL_UNSIGNED_INT, nullptr);
 
     glBindVertexArray(0); // unbind VAO
+
+    time += dt; // increase time by delta time
 }
 void Scene::update(float dt)
 {
