@@ -43,10 +43,10 @@ cmake_force:
 SHELL = cmd.exe
 
 # The CMake executable.
-CMAKE_COMMAND = "C:\Users\dangm\AppData\Local\JetBrains\CLion 2023.1.2\bin\cmake\win\x64\bin\cmake.exe"
+CMAKE_COMMAND = "C:\Program Files\JetBrains\CLion 2023.1.2\bin\cmake\win\x64\bin\cmake.exe"
 
 # The command to remove a file.
-RM = "C:\Users\dangm\AppData\Local\JetBrains\CLion 2023.1.2\bin\cmake\win\x64\bin\cmake.exe" -E rm -f
+RM = "C:\Program Files\JetBrains\CLion 2023.1.2\bin\cmake\win\x64\bin\cmake.exe" -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
@@ -73,20 +73,20 @@ libs/glew-2.1.0/build/cmake/CMakeFiles/glew.dir/__/__/src/glew.c.obj: libs/glew-
 libs/glew-2.1.0/build/cmake/CMakeFiles/glew.dir/__/__/src/glew.c.obj: C:/Users/dangm/Documents/VisualComputing_Praktikum/libs/glew-2.1.0/src/glew.c
 libs/glew-2.1.0/build/cmake/CMakeFiles/glew.dir/__/__/src/glew.c.obj: libs/glew-2.1.0/build/cmake/CMakeFiles/glew.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\dangm\Documents\VisualComputing_Praktikum\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object libs/glew-2.1.0/build/cmake/CMakeFiles/glew.dir/__/__/src/glew.c.obj"
-	cd /d C:\Users\dangm\Documents\VisualComputing_Praktikum\cmake-build-debug\libs\glew-2.1.0\build\cmake && C:\Users\dangm\AppData\Local\JETBRA~1\CLION2~1.2\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT libs/glew-2.1.0/build/cmake/CMakeFiles/glew.dir/__/__/src/glew.c.obj -MF CMakeFiles\glew.dir\__\__\src\glew.c.obj.d -o CMakeFiles\glew.dir\__\__\src\glew.c.obj -c C:\Users\dangm\Documents\VisualComputing_Praktikum\libs\glew-2.1.0\src\glew.c
+	cd /d C:\Users\dangm\Documents\VisualComputing_Praktikum\cmake-build-debug\libs\glew-2.1.0\build\cmake && C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT libs/glew-2.1.0/build/cmake/CMakeFiles/glew.dir/__/__/src/glew.c.obj -MF CMakeFiles\glew.dir\__\__\src\glew.c.obj.d -o CMakeFiles\glew.dir\__\__\src\glew.c.obj -c C:\Users\dangm\Documents\VisualComputing_Praktikum\libs\glew-2.1.0\src\glew.c
 
 libs/glew-2.1.0/build/cmake/CMakeFiles/glew.dir/__/__/src/glew.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/glew.dir/__/__/src/glew.c.i"
-	cd /d C:\Users\dangm\Documents\VisualComputing_Praktikum\cmake-build-debug\libs\glew-2.1.0\build\cmake && C:\Users\dangm\AppData\Local\JETBRA~1\CLION2~1.2\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\dangm\Documents\VisualComputing_Praktikum\libs\glew-2.1.0\src\glew.c > CMakeFiles\glew.dir\__\__\src\glew.c.i
+	cd /d C:\Users\dangm\Documents\VisualComputing_Praktikum\cmake-build-debug\libs\glew-2.1.0\build\cmake && C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\dangm\Documents\VisualComputing_Praktikum\libs\glew-2.1.0\src\glew.c > CMakeFiles\glew.dir\__\__\src\glew.c.i
 
 libs/glew-2.1.0/build/cmake/CMakeFiles/glew.dir/__/__/src/glew.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/glew.dir/__/__/src/glew.c.s"
-	cd /d C:\Users\dangm\Documents\VisualComputing_Praktikum\cmake-build-debug\libs\glew-2.1.0\build\cmake && C:\Users\dangm\AppData\Local\JETBRA~1\CLION2~1.2\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\dangm\Documents\VisualComputing_Praktikum\libs\glew-2.1.0\src\glew.c -o CMakeFiles\glew.dir\__\__\src\glew.c.s
+	cd /d C:\Users\dangm\Documents\VisualComputing_Praktikum\cmake-build-debug\libs\glew-2.1.0\build\cmake && C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\dangm\Documents\VisualComputing_Praktikum\libs\glew-2.1.0\src\glew.c -o CMakeFiles\glew.dir\__\__\src\glew.c.s
 
 libs/glew-2.1.0/build/cmake/CMakeFiles/glew.dir/__/glew.rc.obj: libs/glew-2.1.0/build/cmake/CMakeFiles/glew.dir/flags.make
 libs/glew-2.1.0/build/cmake/CMakeFiles/glew.dir/__/glew.rc.obj: C:/Users/dangm/Documents/VisualComputing_Praktikum/libs/glew-2.1.0/build/glew.rc
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\dangm\Documents\VisualComputing_Praktikum\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building RC object libs/glew-2.1.0/build/cmake/CMakeFiles/glew.dir/__/glew.rc.obj"
-	cd /d C:\Users\dangm\Documents\VisualComputing_Praktikum\cmake-build-debug\libs\glew-2.1.0\build\cmake && C:\Users\dangm\AppData\Local\JETBRA~1\CLION2~1.2\bin\mingw\bin\windres.exe -O coff $(RC_DEFINES) $(RC_INCLUDES) $(RC_FLAGS) C:\Users\dangm\Documents\VisualComputing_Praktikum\libs\glew-2.1.0\build\glew.rc CMakeFiles\glew.dir\__\glew.rc.obj
+	cd /d C:\Users\dangm\Documents\VisualComputing_Praktikum\cmake-build-debug\libs\glew-2.1.0\build\cmake && C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\windres.exe -O coff $(RC_DEFINES) $(RC_INCLUDES) $(RC_FLAGS) C:\Users\dangm\Documents\VisualComputing_Praktikum\libs\glew-2.1.0\build\glew.rc CMakeFiles\glew.dir\__\glew.rc.obj
 
 # Object files for target glew
 glew_OBJECTS = \

@@ -11,20 +11,20 @@
 				<Option working_dir="C:/Users/dangm/Documents/VisualComputing_Praktikum/cmake-build-debug/libs/glm-master"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="C:/Users/dangm/AppData/Local/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/dangm/Documents/VisualComputing_Praktikum/cmake-build-debug/libs/glm-master/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="C:/Users/dangm/AppData/Local/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/dangm/Documents/VisualComputing_Praktikum/cmake-build-debug/libs/glm-master/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/Users/dangm/AppData/Local/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/dangm/Documents/VisualComputing_Praktikum/cmake-build-debug/libs/glm-master/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/Users/dangm/AppData/Local/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/dangm/Documents/VisualComputing_Praktikum/cmake-build-debug/libs/glm-master/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/dangm/Documents/VisualComputing_Praktikum/cmake-build-debug/libs/glm-master/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/dangm/Documents/VisualComputing_Praktikum/cmake-build-debug/libs/glm-master/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/dangm/Documents/VisualComputing_Praktikum/cmake-build-debug/libs/glm-master/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/dangm/Documents/VisualComputing_Praktikum/cmake-build-debug/libs/glm-master/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="uninstall">
 				<Option working_dir="C:/Users/dangm/Documents/VisualComputing_Praktikum/cmake-build-debug/libs/glm-master"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="C:/Users/dangm/AppData/Local/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/dangm/Documents/VisualComputing_Praktikum/cmake-build-debug/libs/glm-master/Makefile&quot;  VERBOSE=1 uninstall"/>
-					<CompileFile command="C:/Users/dangm/AppData/Local/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/dangm/Documents/VisualComputing_Praktikum/cmake-build-debug/libs/glm-master/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/Users/dangm/AppData/Local/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/dangm/Documents/VisualComputing_Praktikum/cmake-build-debug/libs/glm-master/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/Users/dangm/AppData/Local/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/dangm/Documents/VisualComputing_Praktikum/cmake-build-debug/libs/glm-master/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/dangm/Documents/VisualComputing_Praktikum/cmake-build-debug/libs/glm-master/Makefile&quot;  VERBOSE=1 uninstall"/>
+					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/dangm/Documents/VisualComputing_Praktikum/cmake-build-debug/libs/glm-master/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/dangm/Documents/VisualComputing_Praktikum/cmake-build-debug/libs/glm-master/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/dangm/Documents/VisualComputing_Praktikum/cmake-build-debug/libs/glm-master/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="glm_dummy">
@@ -36,19 +36,19 @@
 				<Compiler>
 					<Add directory="C:/Users/dangm/Documents/VisualComputing_Praktikum/libs/glm-master"/>
 					<Add directory="C:/Users/dangm/Documents/VisualComputing_Praktikum/libs/glm-master/glm/.."/>
-					<Add directory="C:/Users/dangm/AppData/Local/JetBrains/CLion 2023.1.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++"/>
-					<Add directory="C:/Users/dangm/AppData/Local/JetBrains/CLion 2023.1.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32"/>
-					<Add directory="C:/Users/dangm/AppData/Local/JetBrains/CLion 2023.1.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward"/>
-					<Add directory="C:/Users/dangm/AppData/Local/JetBrains/CLion 2023.1.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include"/>
-					<Add directory="C:/Users/dangm/AppData/Local/JetBrains/CLion 2023.1.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include"/>
-					<Add directory="C:/Users/dangm/AppData/Local/JetBrains/CLion 2023.1.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"/>
-					<Add directory="C:/Users/dangm/AppData/Local/JetBrains/CLion 2023.1.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.1.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.1.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.1.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.1.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.1.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.1.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.1.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/Users/dangm/AppData/Local/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/dangm/Documents/VisualComputing_Praktikum/cmake-build-debug/libs/glm-master/glm/Makefile&quot;  VERBOSE=1 glm_dummy"/>
-					<CompileFile command="C:/Users/dangm/AppData/Local/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/dangm/Documents/VisualComputing_Praktikum/cmake-build-debug/libs/glm-master/glm/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/Users/dangm/AppData/Local/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/dangm/Documents/VisualComputing_Praktikum/cmake-build-debug/libs/glm-master/glm/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/Users/dangm/AppData/Local/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/dangm/Documents/VisualComputing_Praktikum/cmake-build-debug/libs/glm-master/glm/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/dangm/Documents/VisualComputing_Praktikum/cmake-build-debug/libs/glm-master/glm/Makefile&quot;  VERBOSE=1 glm_dummy"/>
+					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/dangm/Documents/VisualComputing_Praktikum/cmake-build-debug/libs/glm-master/glm/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/dangm/Documents/VisualComputing_Praktikum/cmake-build-debug/libs/glm-master/glm/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/dangm/Documents/VisualComputing_Praktikum/cmake-build-debug/libs/glm-master/glm/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="glm_dummy/fast">
@@ -60,19 +60,19 @@
 				<Compiler>
 					<Add directory="C:/Users/dangm/Documents/VisualComputing_Praktikum/libs/glm-master"/>
 					<Add directory="C:/Users/dangm/Documents/VisualComputing_Praktikum/libs/glm-master/glm/.."/>
-					<Add directory="C:/Users/dangm/AppData/Local/JetBrains/CLion 2023.1.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++"/>
-					<Add directory="C:/Users/dangm/AppData/Local/JetBrains/CLion 2023.1.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32"/>
-					<Add directory="C:/Users/dangm/AppData/Local/JetBrains/CLion 2023.1.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward"/>
-					<Add directory="C:/Users/dangm/AppData/Local/JetBrains/CLion 2023.1.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include"/>
-					<Add directory="C:/Users/dangm/AppData/Local/JetBrains/CLion 2023.1.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include"/>
-					<Add directory="C:/Users/dangm/AppData/Local/JetBrains/CLion 2023.1.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"/>
-					<Add directory="C:/Users/dangm/AppData/Local/JetBrains/CLion 2023.1.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.1.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.1.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.1.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.1.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.1.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.1.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.1.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/Users/dangm/AppData/Local/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/dangm/Documents/VisualComputing_Praktikum/cmake-build-debug/libs/glm-master/glm/Makefile&quot;  VERBOSE=1 glm_dummy/fast"/>
-					<CompileFile command="C:/Users/dangm/AppData/Local/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/dangm/Documents/VisualComputing_Praktikum/cmake-build-debug/libs/glm-master/glm/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/Users/dangm/AppData/Local/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/dangm/Documents/VisualComputing_Praktikum/cmake-build-debug/libs/glm-master/glm/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/Users/dangm/AppData/Local/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/dangm/Documents/VisualComputing_Praktikum/cmake-build-debug/libs/glm-master/glm/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/dangm/Documents/VisualComputing_Praktikum/cmake-build-debug/libs/glm-master/glm/Makefile&quot;  VERBOSE=1 glm_dummy/fast"/>
+					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/dangm/Documents/VisualComputing_Praktikum/cmake-build-debug/libs/glm-master/glm/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/dangm/Documents/VisualComputing_Praktikum/cmake-build-debug/libs/glm-master/glm/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/dangm/Documents/VisualComputing_Praktikum/cmake-build-debug/libs/glm-master/glm/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>

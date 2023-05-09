@@ -43,10 +43,10 @@ cmake_force:
 SHELL = cmd.exe
 
 # The CMake executable.
-CMAKE_COMMAND = "C:\Users\dangm\AppData\Local\JetBrains\CLion 2023.1.2\bin\cmake\win\x64\bin\cmake.exe"
+CMAKE_COMMAND = "C:\Program Files\JetBrains\CLion 2023.1.2\bin\cmake\win\x64\bin\cmake.exe"
 
 # The command to remove a file.
-RM = "C:\Users\dangm\AppData\Local\JetBrains\CLion 2023.1.2\bin\cmake\win\x64\bin\cmake.exe" -E rm -f
+RM = "C:\Program Files\JetBrains\CLion 2023.1.2\bin\cmake\win\x64\bin\cmake.exe" -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
@@ -73,30 +73,30 @@ libs/glm-master/glm/CMakeFiles/glm_dummy.dir/detail/dummy.cpp.obj: libs/glm-mast
 libs/glm-master/glm/CMakeFiles/glm_dummy.dir/detail/dummy.cpp.obj: C:/Users/dangm/Documents/VisualComputing_Praktikum/libs/glm-master/glm/detail/dummy.cpp
 libs/glm-master/glm/CMakeFiles/glm_dummy.dir/detail/dummy.cpp.obj: libs/glm-master/glm/CMakeFiles/glm_dummy.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\dangm\Documents\VisualComputing_Praktikum\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object libs/glm-master/glm/CMakeFiles/glm_dummy.dir/detail/dummy.cpp.obj"
-	cd /d C:\Users\dangm\Documents\VisualComputing_Praktikum\cmake-build-debug\libs\glm-master\glm && C:\Users\dangm\AppData\Local\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT libs/glm-master/glm/CMakeFiles/glm_dummy.dir/detail/dummy.cpp.obj -MF CMakeFiles\glm_dummy.dir\detail\dummy.cpp.obj.d -o CMakeFiles\glm_dummy.dir\detail\dummy.cpp.obj -c C:\Users\dangm\Documents\VisualComputing_Praktikum\libs\glm-master\glm\detail\dummy.cpp
+	cd /d C:\Users\dangm\Documents\VisualComputing_Praktikum\cmake-build-debug\libs\glm-master\glm && C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT libs/glm-master/glm/CMakeFiles/glm_dummy.dir/detail/dummy.cpp.obj -MF CMakeFiles\glm_dummy.dir\detail\dummy.cpp.obj.d -o CMakeFiles\glm_dummy.dir\detail\dummy.cpp.obj -c C:\Users\dangm\Documents\VisualComputing_Praktikum\libs\glm-master\glm\detail\dummy.cpp
 
 libs/glm-master/glm/CMakeFiles/glm_dummy.dir/detail/dummy.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/glm_dummy.dir/detail/dummy.cpp.i"
-	cd /d C:\Users\dangm\Documents\VisualComputing_Praktikum\cmake-build-debug\libs\glm-master\glm && C:\Users\dangm\AppData\Local\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\dangm\Documents\VisualComputing_Praktikum\libs\glm-master\glm\detail\dummy.cpp > CMakeFiles\glm_dummy.dir\detail\dummy.cpp.i
+	cd /d C:\Users\dangm\Documents\VisualComputing_Praktikum\cmake-build-debug\libs\glm-master\glm && C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\dangm\Documents\VisualComputing_Praktikum\libs\glm-master\glm\detail\dummy.cpp > CMakeFiles\glm_dummy.dir\detail\dummy.cpp.i
 
 libs/glm-master/glm/CMakeFiles/glm_dummy.dir/detail/dummy.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/glm_dummy.dir/detail/dummy.cpp.s"
-	cd /d C:\Users\dangm\Documents\VisualComputing_Praktikum\cmake-build-debug\libs\glm-master\glm && C:\Users\dangm\AppData\Local\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\dangm\Documents\VisualComputing_Praktikum\libs\glm-master\glm\detail\dummy.cpp -o CMakeFiles\glm_dummy.dir\detail\dummy.cpp.s
+	cd /d C:\Users\dangm\Documents\VisualComputing_Praktikum\cmake-build-debug\libs\glm-master\glm && C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\dangm\Documents\VisualComputing_Praktikum\libs\glm-master\glm\detail\dummy.cpp -o CMakeFiles\glm_dummy.dir\detail\dummy.cpp.s
 
 libs/glm-master/glm/CMakeFiles/glm_dummy.dir/detail/glm.cpp.obj: libs/glm-master/glm/CMakeFiles/glm_dummy.dir/flags.make
 libs/glm-master/glm/CMakeFiles/glm_dummy.dir/detail/glm.cpp.obj: libs/glm-master/glm/CMakeFiles/glm_dummy.dir/includes_CXX.rsp
 libs/glm-master/glm/CMakeFiles/glm_dummy.dir/detail/glm.cpp.obj: C:/Users/dangm/Documents/VisualComputing_Praktikum/libs/glm-master/glm/detail/glm.cpp
 libs/glm-master/glm/CMakeFiles/glm_dummy.dir/detail/glm.cpp.obj: libs/glm-master/glm/CMakeFiles/glm_dummy.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\dangm\Documents\VisualComputing_Praktikum\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object libs/glm-master/glm/CMakeFiles/glm_dummy.dir/detail/glm.cpp.obj"
-	cd /d C:\Users\dangm\Documents\VisualComputing_Praktikum\cmake-build-debug\libs\glm-master\glm && C:\Users\dangm\AppData\Local\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT libs/glm-master/glm/CMakeFiles/glm_dummy.dir/detail/glm.cpp.obj -MF CMakeFiles\glm_dummy.dir\detail\glm.cpp.obj.d -o CMakeFiles\glm_dummy.dir\detail\glm.cpp.obj -c C:\Users\dangm\Documents\VisualComputing_Praktikum\libs\glm-master\glm\detail\glm.cpp
+	cd /d C:\Users\dangm\Documents\VisualComputing_Praktikum\cmake-build-debug\libs\glm-master\glm && C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT libs/glm-master/glm/CMakeFiles/glm_dummy.dir/detail/glm.cpp.obj -MF CMakeFiles\glm_dummy.dir\detail\glm.cpp.obj.d -o CMakeFiles\glm_dummy.dir\detail\glm.cpp.obj -c C:\Users\dangm\Documents\VisualComputing_Praktikum\libs\glm-master\glm\detail\glm.cpp
 
 libs/glm-master/glm/CMakeFiles/glm_dummy.dir/detail/glm.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/glm_dummy.dir/detail/glm.cpp.i"
-	cd /d C:\Users\dangm\Documents\VisualComputing_Praktikum\cmake-build-debug\libs\glm-master\glm && C:\Users\dangm\AppData\Local\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\dangm\Documents\VisualComputing_Praktikum\libs\glm-master\glm\detail\glm.cpp > CMakeFiles\glm_dummy.dir\detail\glm.cpp.i
+	cd /d C:\Users\dangm\Documents\VisualComputing_Praktikum\cmake-build-debug\libs\glm-master\glm && C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\dangm\Documents\VisualComputing_Praktikum\libs\glm-master\glm\detail\glm.cpp > CMakeFiles\glm_dummy.dir\detail\glm.cpp.i
 
 libs/glm-master/glm/CMakeFiles/glm_dummy.dir/detail/glm.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/glm_dummy.dir/detail/glm.cpp.s"
-	cd /d C:\Users\dangm\Documents\VisualComputing_Praktikum\cmake-build-debug\libs\glm-master\glm && C:\Users\dangm\AppData\Local\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\dangm\Documents\VisualComputing_Praktikum\libs\glm-master\glm\detail\glm.cpp -o CMakeFiles\glm_dummy.dir\detail\glm.cpp.s
+	cd /d C:\Users\dangm\Documents\VisualComputing_Praktikum\cmake-build-debug\libs\glm-master\glm && C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\dangm\Documents\VisualComputing_Praktikum\libs\glm-master\glm\detail\glm.cpp -o CMakeFiles\glm_dummy.dir\detail\glm.cpp.s
 
 # Object files for target glm_dummy
 glm_dummy_OBJECTS = \
